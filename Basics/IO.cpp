@@ -2,7 +2,7 @@
 using namespace std;
 
 int main()
-{
+{  // output operation
    cout<<"Hello";
    cout<<"\n";
    cout<<sqrt(16);
@@ -20,5 +20,12 @@ int main()
    double f=3.5;
    bool g=true;
    cout<<c <<" " <<d <<" " <<e <<" " <<f  <<" " <<g << endl;
-   
+
+   // input operation
+   int x;
+   double y;
+   char z;
+   cin>> x >> y >> z;
+   cout<< x << " " << y << " " << z << endl;
+   cout<< (int)z;
 }
