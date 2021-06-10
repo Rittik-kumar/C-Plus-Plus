@@ -31,6 +31,25 @@ int main()
   cout<< str << endl;
   str[0] = 'H';
 
-  //  to find size of string
-  cout<< str.size() << endl;
+  // to find size of string
+  cout<< str1.size() << endl;
+  for(int i=0;i<str1.size();i++)
+  {
+      cout<<str1[i];
+  }
+
+  // getline
+  string str2;
+  getline(cin,str2);
+  cout<< str2 << endl;
+
+  int t;
+  cin>> t;
+  cin.ignore();
+  while(t--)
+  {
+      string s;
+      getline(cin,s);
+      cout<< s << endl;
+  }
 }
